@@ -1,0 +1,10 @@
+
+# Things for local testing
+[aA]ssets/
+[lL]ibrary/
+[Tt]emp/
+*.csproj
+*.slnx
+*.asmdef
+*.txt
+*.cs
