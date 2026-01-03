@@ -1,4 +1,4 @@
-﻿<Project>
+<Project>
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
     <BaseIntermediateOutputPath>Temp\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
@@ -60,9 +60,9 @@
     <Analyzer Include="C:\dev\Unity\FactoryGame\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.CodeFixes.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\VoxelDrawer.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <!-- Auto-generated Compile nodes from UniUtil -->
+    <Compile Include="Assets\Scripts\test.cs" />
+    <!-- End Auto-generated Compile nodes from UniUtil -->
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

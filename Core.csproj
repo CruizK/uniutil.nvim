@@ -60,11 +60,9 @@
     <Analyzer Include="C:\dev\Unity\FactoryGame\Library\PackageCache\com.unity.entities@42c4e852ffb4\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.CodeFixes.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Core\MarchingCubesSystem.cs" />
-    <Compile Include="Assets\Scripts\Core\MarchingUtils.cs" />
-    <Compile Include="Assets\Scripts\Core\InventoryComponentAuthoring.cs" />
-    <Compile Include="Assets\Scripts\Core\AnotherFile.cs" />
-    <Compile Include="Assets\Scripts\Core\AnotherTestFile.cs" />
+    <!-- Auto-generated Compile nodes from UniUtil -->
+    <Compile Include="Assets\Scripts\Core\simulation.cs" />
+    <!-- End Auto-generated Compile nodes from UniUtil -->
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Core\Core.asmdef" />
