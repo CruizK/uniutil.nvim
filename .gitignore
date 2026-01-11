@@ -3,7 +3,6 @@
 [aA]ssets/
 [lL]ibrary/
 [Tt]emp/
-*.csproj
 *.slnx
 *.asmdef
 *.txt

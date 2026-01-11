@@ -12,6 +12,7 @@ end
 --- @param root? string|nil The root to stop looking upward
 --- @return table|nil The parsed asmdef data or nil if failed
 function M.get_asmdef(file, root)
+  root = root or M.find_unity_project_root()
   local asmdef_path = vim.fs.find(function(name, _)
     return name:match('%.asmdef$')
   end, { path = file, upward = true, type = "file", stop = root })[1]
