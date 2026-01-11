@@ -8,7 +8,6 @@ local isn = ls.indent_snippet_node
 local fmt = require('luasnip.extras.fmt').fmt
 local rep = require('luasnip.extras').rep
 
-ls.cleanup()
 
 --- Helper function to wrap a snippet in a namespace which is inferred from the asmdef
 --- @param inner fun(): LuaSnip.Node The snippet function to wrap
